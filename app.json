@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "AppCidadao",
+    "slug": "AppCidadao",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "plugins": ["expo-image-picker"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1886C0"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appcidadao"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1886C0"
+      },
+      "package": "com.alexandre1921.AppCidadao"
+    }
+  }
+}
